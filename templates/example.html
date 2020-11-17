@@ -1,0 +1,81 @@
+
+{% extends 'layout.html' %}
+
+{% block body %}
+<style>
+    .dataa {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 0;
+        overflow: scroll;
+    }
+
+    .hed {
+        text-align: center;
+    }
+</style>
+
+<script>
+
+</script>
+
+<h1 class="hed">Sample Data</h1>
+<hr>
+	
+<h1>Promoters Postive</h1>
+<br>
+<div class="dataa">
+>taaaaaatatcttgtatgtgatccagatcacatctatcatttagttatcgatcgttaagtAattgcttgcgacgtcattca<br>
+>cgatgactttaggcgatcaatataagatcgccgggccacgcaaagaactgcaccctccggTgcaaatgggatggtaaggag<br>
+>gcaccagtacaagcagcctgatgtttgacgagtatttaacttgttatgaataacatagaatagcagccattcactttttct<br>
+>acccactaatcgtccgattaaaaaccctgcagaaacggataatcatgccgataactcataTaacgcagggctgtttatcgt<br>
+>agaaaaccaaaagcgtggtcgccccttgcaatatcagaatcgcggcaccattaagtacgtAtggaccaccaacggcccgga<br>
+>cgggttgccaaaagccaggtggtgattgaaaaaggcgaacttggccgccacaaacaaattAaaatcattaatccgcaacaa<br>
+>aacgctatcgacaacgataaagtcaggttgaagttgtgtatatcggctaaacttaggtttAacagaatgtaatgccatgac<br>
+>ttcactaaaaagtgtgatcggggacaatatatttacgcacgttatgtttaaaggcactacActgattggggaatactgaaa<br>
+>gtgtttatcccgattttcgcgatcgcagccggagtggcgcaatccctgcaatacttaaatCggtatcatgtgatacgcgag<br>
+>ttggttagcttgtacatcaacaccaaaataaaactggcaagcatcttgcaatctggttgtAagtaatggcggcacttgggc<br>
+>gttcgtgaatttacaggcgttagatttacatacatttgtgaatgtatgtaccatagcacgAcgataatataaacgcagcaa<br>
+>aaactgactaaataaaaatttttcactaattgattagtcatagccagcgatatacgctatGcgaaaatgcagatggcaatg<br>
+>gcgaaggtttcgatgagtatctaagggaaattcgctccctgtttacgaaggtcaaagttcGtaagccggactcttctcgtg<br>
+>gttggcattgcccgcgcggtggtgaacaagcccgcggtactgctggcggacgaaccgactGgtaacctggacgacgcgctg<br>
+>gctggcctgcgttgtcggttattacgtggtgtggaatgtatcgcacgcgctgcatacaccGttgatgtcggtcaccaacgc<br>
+>ttcgttgcacgaactggagcagctcctgtgtaaacactgattgcctcccccccgttgatgGgtaaaatagccgcaattttt<br>
+>cgggaccagaagcaaaaaaataccgacccgggtacaagtcccaggtcagctacaattcacattttgatagtcattttacct<br>
+>gggttttcatttaacgtgacactgtcacttaaatactgtgatttcagctacgattccgggAgattccttccttaacttccc<br>
+>ctaaccaaatggctttatcaggtgcctgttgcagcacggcttcggccatatcagcaagtgAcagcgcaccaaatccccggc<br>
+>ggcgctgctggcaacgttattcttcatcatcagtctggtgctgggtaacatcaatagcaaCaaaaccaataaaggtagcga<br>
+>tagctcagttggtagagcacgaccttgccaaggtcggggtcgcgagttcgagtctcgtttCccgctccagtttaaaagaca<br>
+>gcgagaatcaccgggattgctaatgctaataacagacgcgcttcactgatatacttctgcAcgtgaacaccttttatttgt<br>
+>ctgctctccttatccttaatggacgcgttgcaaatccatggaaaactccggacaatgacgCccatttctttgcatcgacag<br>
+>aattccctgaatgtgacgcaaatcacttcaaagagtgagcaacagtcagtatcatcatgtGagttaaaccctcgccgcctg
+<br>
+
+</div>
+
+<h1>Non-Promoters Negative</h1>
+<br>
+<div class="dataa">
+>acaattcagcgcattgtacgtcaggcaagtaagttacgcgttgtttttgcgacagatgaagagattgcagctcatgaagcc<br>
+>cgtcgcctgacgggcaataacttccatgtttatctcaaacccgatcggctggtggatccggaagcctttggcgtacatggt<br>
+>cgtcggtgcctggcagcaccatcagagcaaaaaagaagctcagcaatccacactctccgtcgaatcaccggtacaacgtta<br>
+>ccgctggcggcgggtgcactggctaaaaccggtaaatacgacgcggtgattgcgctgggtacggttattcgtggtggcact<br>
+>atggaaaacgttgctctggacttctcttacgagcagagccgtattcgtagcgttgacgtaggcacctggattgccggtgtt<br>
+>aacaaaaaccagtactacggcatcactgctggtccggcttaccgcattaacgactgggcaagcatctacggtgtagtgggt<br>
+>atgaacaaaatgggcggtttcaacctgaaataccgctatgaagaagacaacagcccgctgggtgtgatcggttctttcact<br>
+>cgcaacccgcagaccggtaaagagatcaccatcgctgctgctaaagtaccgagcttccgtgcaggtaaagcactgaaagac<br>
+>attgctgagcaacaggtaattacgattttagttaagggttcacgtagtgccgccatggaagaggtagtacgcgctttacag<br>
+>atggcggaactgggcgctgaaagcgaagcctgccatgtacaggtgggcgaggcggcaaaagctgctggtattgaccgcgt<br>
+>gatgctatcaaagcggggctggcaaatctgaaagctgttccaggccgtctgttccccatccaactggcagaaaaccagttg<br>
+>gaatttaccctacaaaccccaaccggtagcgtcgatgttctgctgccgttgccggggcgtcacaatattgcgaatgcgctg<br>
+>aacaacgactggctgaactggcagagcgtaattggctcacgcaaagtgtggcgtttctcacccaatgccgccaacagcgat<br>
+>gtcaacaacctggcagcggcgcatctggaaggttttggctcgcttgcgggtgtcgcgaaagcgaaaggtgaaatctttagc<br>
+>gtaccgatgacgctgttgcgcttaacgccggaatacgattacgcagttattgaacttggcgcgaaccatcagggcgaaata<br>
+>cgcgtggttgctctgacggggtcctccggcaaaacctccgttaaagagatgacggcggcgattttaagccagtgcggcaac<br>
+</div>
+
+
+<button class="btn btn-primary" style="margin-bottom: 3%;" onclick="history.back()">Back</button>
+
+{% endblock %}

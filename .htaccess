@@ -1,0 +1,6 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/biopredo/public_html/promoters"
+PassengerBaseURI "/promoters"
+PassengerPython "/home/biopredo/virtualenv/public_html/promoters/3.8/bin/python"
+PassengerAppLogFile "/home/biopredo/logs/promoter"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
